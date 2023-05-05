@@ -1,0 +1,277 @@
+:root{
+    --main-color:#2c93d8;
+    --gid-color:rgb(0, 81, 255);
+    --text-color:#ffffff;
+    --second-color:black;
+    --color-three:#4e4d4dbd;
+}
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: pop;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: fit-content;
+    background-color: var(--text-color);
+}
+nav{
+    height: 5vh;
+    background-color: var(--text-color);
+}
+nav li {
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color:var(--color-three);
+}
+nav ul li.active a{
+    color: black ;
+}
+nav li a:hover{
+    color: #000000;
+}
+.buttonD button{
+    background-color: var(--main-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 17px;
+    transition: all 0.5s initial;
+}
+.buttonD button:hover{
+    background-color: rgb(0, 0, 0);
+}
+/*small nav*/
+.navbar-toggler{
+    color: #4468E2;
+}
+.navbar-toggler:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.offcanvas{
+    background-color: var(--main-color);
+}
+.offcanvas-header svg{
+    transition: all 0.5s;
+}
+.offcanvas-header button svg:hover{
+    color: red;
+}
+.offcanvas .logo,.btn-close{
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: 700;
+}
+.offcanvas-body .navbar-nav{
+    align-items: center;
+    gap: 20px;
+}
+.offcanvas-body .navbar-nav .nav-item{
+    width: 100%;
+    padding: 2% 0;
+    text-align: center;
+    border-radius:15px ;
+    transition: all 0.5s;
+}
+.offcanvas-body .navbar-nav .nav-item:hover{
+    background-color: var(--second-color);
+}
+.offcanvas-body .navbar-nav .nav-item a{
+    font-size: 20px;
+    color: var(--text-color);
+}
+.form{
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    border-radius: 15px;
+}
+.form input{
+    background-color: transparent;
+    border: none;
+    transition: all 0.5s;
+    padding:2%;
+    color: var(--text-color);
+}
+.form input:focus{
+    border: none;
+    outline: none;
+}
+.form input::placeholder{
+    color: var(--text-color);
+}
+#searchB svg:hover{
+    cursor: pointer;
+    color: var(--second-color);
+}
+/*mainSearch*/
+.search-in{
+    border: 1px solid  var(--main-color);
+}
+/*land*/
+.land{
+    height: 80vh;
+    background:url(../imgs/background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    flex-direction: column;
+}
+.box{
+    height:10vh;
+    background-color: var(--text-color);
+}
+.box-one-two-text:hover{
+    color: var(--main-color) !important;
+    cursor: pointer;
+}
+.box-btn button{
+    background-color: var(--main-color);
+    transition: all 0.5s;
+}
+.box-btn button:hover{
+    background-color: var(--second-color);
+    color: var(--text-color);
+}
+/*search*/
+.close-search{
+    color: var(--text-color);
+    cursor: pointer;
+    transition: ease-in-out 0.5s all;
+}
+.close-search:hover{
+    color: red;
+}
+.search-inn{
+    border: 2px solid var(--text-color);
+}
+.icon{
+    color: var(--text-color);
+    transition: all 0.5s;
+}
+.icon:hover{
+    color: var(--second-color);
+}
+.searchInput{
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+}
+.searchInput:focus{
+    border: none;
+    outline: none;
+}
+.searchInput::placeholder{
+    color: var(--text-color);
+}
+/*cards*/
+.cards{
+    margin-top: 8%;
+}
+.card-content{
+    height: fit-content;
+    border-radius: 3%;
+    box-shadow: 1px -1px 1px 2px #8181813d;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: var(--second-color);
+}
+.img-box{
+    width: 60px;
+    height: 80px;
+    border-radius: 17px;
+}
+.card-content:hover{
+    background-color: var(--second-color);
+    color: var(--text-color);
+}
+/*places*/
+.fl{
+    border-bottom:1px solid var(--second-color) ;
+}
+.flUl{
+    list-style: none;
+}
+
+.flUl button{
+    color: var(--color-three);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.flUl button.active{
+    color: var(--text-color);
+    background: linear-gradient(var(--main-color),var(--gid-color));
+    font-weight:900;
+}
+.flUl button:hover{
+    background: linear-gradient(var(--main-color),var(--gid-color));
+    color:var(--text-color);
+    font-weight:900;
+}
+.place{
+    height: fit-content;
+}
+.place-content{
+    height: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+.place-img{
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.place:hover .place-img{
+    filter: brightness(0.5);
+}
+/*blogs*/
+.blogs{
+    height: 40vh;
+}
+.blog-content{
+    height: 100%;
+    line-height: 1;
+    color:var(--text-color);
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.left{
+    height: 100%;
+    background: url(../imgs/backgrounds/left.png);
+    background-size: 100% 100%;
+}
+.right{
+    height: 100%;
+}
+.right .top,.right .bottom{
+    height: 49%;
+    background: url(../imgs/backgrounds/right-one.png);
+    background-size: 100% 100%;
+}
+.right .bottom{
+    background: url(../imgs/backgrounds/right-two.png);
+    background-size: 100% 100%;
+}
+@media only screen and (min-width:1800px) and (max-width:2700px) {
+    .card-content{
+        min-height: 10vh;
+    }
+}
+@font-face {
+    font-family: pop;
+    src: url(fonts/Poppins-Light.ttf);
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--boot strab-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!--animation-->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!--slider-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/sw.css">
+    <!--my css files-->
+    <link rel="stylesheet" href="assets/css/loader.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--site icon-->
+    <title>To Do</title>
+</head>
+<body>
+  <!--loader-->
+  <div class="loader-container">
+    <div class="loader"></div>
+  </div>
+    <!--page-->
+    <!--navBar-->
+    <nav class="navbar pb-3 fixed-top">
+      <div class="container-fluid d-flex align-items-center justify-content-between">
+        <li class="logo col-4"><img src="assets/imgs/logo.png" alt=""></li>
+        <ul id="list" class="d-none d-lg-flex col-4 p-0 m-0">
+          <li class="active pe-4"><a href="#home">Home</a></li>
+          <li class="pe-4"><a href="#About">About</a></li>
+          <li class="pe-4"><a href="#">Products</a></li>
+          <li class="pe-4"><a href="#">Plans</a></li>
+          <li class="pe-4"><a href="#">Contact</a></li>
+        </ul>
+        <div class="buttonD col-4 d-flex justify-content-end"><button id="Contact" class=" px-3 py-1 d-none d-lg-block">Contact</button></div>
+        <button class="navbar-toggler col-4 d-lg-none  d-sm-flex justify-content-end d-lg-block border-0" id="navB" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <span class="logo" id="offcanvasNavbarLabel">OmarApp</span>
+            <button type="button" data-bs-dismiss="offcanvas" aria-label="Close" class="bg-transparent border-0 fs-2 d-flex align-items-center" style="color: var(--text-color);"><i class="fa-solid fa-regular fa-circle-xmark"></i></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav  flex-grow-1 d-flex justify-content-centertext-center" id="smallNav">
+              <li class="nav-item"><a class="nav-link active"href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link active"href="#About">About</a></li>
+              <li class="nav-item"><a class="nav-link active"href="#">Plans</a></li>
+              <li class="nav-item"><a class="nav-link active"href="#">Products</a></li>
+              <li class="nav-item"><a class="nav-link active"href="#">Contact</a></li>
+            </ul>
+            <div class="d-flex  mt-3 col-12 form justify-content-center align-items-center" role="search">
+              <input class="me-2 search col-10" type="search" placeholder="Search" aria-label="Search">
+              <div id="searchB"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--landingSec-->
+    <div class="content col-12 px-2 pb-5">
+    <section class="land h-sm-100 col-12 d-flex justify-content-center align-items-center">
+     <div class="text col-12 d-flex flex-column justify-content-center align-items-center">
+      <div class="title fs-1 fw-bold text-white text-center pe-1 pb-2"></div>
+      <div class="text fs-6  d-flex flex-column align-items-center px-2 text-center" style="color:var(--text-color)">
+        <p class="mb-1 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing consectetur adipisicin consectetur</p>
+        <p class="mb-1"> elit. Aperiam vitae libero excepturi hic quas sap</p>
+        <p class="pb-4">iente? Odio hic, repellendus offici</p>
+      </div>
+     </div>
+     <div class="box col-9 d-none d-lg-flex align-items-center justify-content-between px-2 rounded-3">
+        <div class="box-content col-9 d-flex align-items-center justify-content-between">
+          <div class="box-one col-6 border-end">
+            <div class="box-one-text fs-5 text-black fw-semibold">Where you go want to go</div>
+            <div class="box-one-two col-12">
+              <div class="box-one-two-text search-bo fs-6 fw-light" style="color: var(--color-three);">
+                search your Location <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+          <div class="box-two col-3 border-end ps-3">
+            <div class="box-two-text fs-5 text-black fw-semibold">Check in</div>
+            <div class="box-two-two col-12">
+              <div class="box-two-two-text fs-6 fw-light" style="color: var(--color-three);">
+                Add Date
+              </div>
+            </div>
+          </div>
+          <div class="box-three col-3 border-end ps-3">
+            <div class="box-three-text fs-5 text-black fw-semibold">Check out</div>
+            <div class="box-three-two col-12">
+              <div class="box-three-two-text fs-6 fw-light" style="color: var(--color-three);">
+                Add Date
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-btn col-12 col-md-3 d-flex  align-items-center justify-content-center">
+          <button class="px-md-3 py-md-3 rounded-3 border-0 text-white fw-semibold fs-5">Explore Now </button>
+        </div>
+     </div>
+    </section>
+    <section class="cards pt-5 pb-5 col-12 d-block d-md-flex align-items-center justify-content-between flex-wrap">
+      <div class="card col-12 col-md-6 col-lg-3 p-2 border-0 bg-transparent">
+        <div class="card-content col-12 p-2 pb-5" data-aos="fade-down">
+          <div class="img-sec d-flex justify-content-center justify-content-md-start col-12">
+            <div class="img-box col-12 b-2 d-flex align-items-center justify-content-center">
+              <img src="assets/imgs/first.png" width="60px" height="76px">
+            </div>
+          </div>
+          <div class="text-card">
+          <div class="text-one pt-2 pb-3 fs-4 fw-normal">Get Best Prices</div>
+          <div class="text-two">
+            Pay through our application and save thousands and get amazing rewards. you will be happy
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="card col-12 col-md-6 col-lg-3 p-2  border-0 bg-transparent"data-aos="fade-right">
+        <div class="card-content col-12 p-2 pb-5">
+          <div class="img-sec d-flex justify-content-center justify-content-md-start col-12">
+            <div class="img-box col-12 b-2 d-flex align-items-center justify-content-center">
+              <img src="assets/imgs/second.png" width="73px" height="73px">
+            </div>
+          </div>
+          <div class="text-card">
+          <div class="text-one pt-2 pb-3 fs-4 fw-normal">Covid Safe</div>
+          <div class="text-two">
+            We have all the curated hotels that have all the precaution for a corvid safe environment
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="card col-12 col-md-6 col-lg-3 p-2 border-0 bg-transparent"data-aos="fade-right">
+        <div class="card-content col-12 p-2 pb-5">
+          <div class="img-sec d-flex justify-content-center justify-content-md-start col-12">
+            <div class="img-box col-12 b-2 d-flex align-items-center justify-content-center">
+              <img src="assets/imgs/thered.png" width="64" height="43px">
+            </div>
+          </div>
+          <div class="text-card">
+          <div class="text-one pt-2 pb-3 fs-4 fw-normal">Flexible Payment</div>
+          <div class="text-two">
+            Enjoy the flexible payment through our app and get rewards on every payment
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="card col-12 col-md-6 col-lg-3 p-2 border-0 bg-transparent"data-aos="fade-up">
+        <div class="card-content col-12 p-2 pb-5">
+          <div class="img-sec d-flex justify-content-center justify-content-md-start col-12">
+            <div class="img-box col-12 b-2 d-flex align-items-center justify-content-center">
+              <img src="assets/imgs/forth.png" width="71px" height="71px">
+            </div>
+          </div>
+          <div class="text-card">
+          <div class="text-one pt-2 pb-3 fs-4 fw-normal">Find The Best Nearly</div>
+          <div class="text-two">
+            Find the best hotels and places to visit near you in a single click by your hand.
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="plcaces pt-5 mt-5 col-12 d-flex flex-wrap pb-5">
+      <div class="places-text pb-4 col-12 text-center fs-1 fw-bold">Recommended Places</div>
+      <div class="filter  mb-3 fl mt-3 col-12  d-md-flex justify-content-center">
+        <ul class="col-12 col-lg-8  d-flex flex-column flex-xl-row flUl justify-content-between">
+          <button class="active  border-0 p-3 " id="mb">The Week end break</button>
+          <button class="border-0 p-3 ">The packege holiday</button>
+          <button class="border-0 p-3">The groub tour</button>
+        </ul>
+      </div>
+        <div class="screens col-12">
+          <div class="screen col-12" id="screen-one">
+            <div class="places-list col-12 d-block d-md-flex  align-items-center justify-content-between flex-wrap">
+            </div>
+          </div>
+          <div class="screen col-12 d-none" id="screen-two">
+            <div class="places-list col-12 d-block d-md-flex  align-items-center justify-content-between flex-wrap">
+            </div>
+          </div>
+          <div class="screen col-12 d-none" id="screen-three">
+            <div class="places-list col-12 d-block d-md-flex  align-items-center justify-content-between flex-wrap">
+            </div>
+          </div>
+          <div class="screen col-12 d-none" id="screen-four">
+            <div class="places-list col-12 d-block d-md-flex  align-items-center justify-content-between flex-wrap">
+            </div>
+          </div>
+        </div>
+      </section>
+    <section class="blogs col-12 mt-5 pb-5">
+      <div class="blog-title col-12 text-center fs-1 fw-bold pb-4">Blogs</div>
+      <div class="blog-content col-12d-block d-xl-flex justify-content-between">
+      <div class="blog-div left pe-0 pe-xl-3 col-12 col-xl-6 d-flex justify-content-center align-items-center" data-aos="fade-down">
+        <div class="left-card-text text-center">
+          <p>The Ultimate Guide</p>
+          <p>to Climbing</p>
+          <p class="m-0">Mount Kilimanjaro</p>
+        </div>
+      </div>
+      <div class="right col-12 col-lg-6 d-flex flex-column justify-content-between ms-0 ms-xl-2 mt-1 mt-xl-0">
+        <div class="blog-div top col-12 d-flex justify-content-center align-items-center" data-aos="fade-right">
+          <div class="right-top-card-text text-center">
+            <p>12 Things I’d Tell Any</p>
+            <p class="m-0">New Traveerl</p>
+          </div>
+        </div>
+        <div class="bottom blog-div  col-12 d-flex justify-content-center align-items-center" data-aos="fade-right">
+          <div class="right-bottom-card-text text-center">
+            <p>The Ultimate Packing List for</p>
+            <p class="m-0">Female Travelers</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    </div>
+    <!--scripts-->
+    <!--boot strab-->
+     <script src="assets/js/bootstrap.js"></script>
+      <!--jquary-->
+      <script src="assets/js/jquary.js"></script>
+      <!--font awsome-->
+      <script src="assets/js/all.js"></script>
+      <!--slider-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      <script src="assets/js/app.js"></script>
+      <!--animation-->
+      <script src="assets/js/aos.js"></script> 
+      <script>
+        AOS.init();
+      </script>
+      <script src="assets/js/search.js"></script>
+     <script src="assets/js/main.js"></script>
+</body>
+</html>

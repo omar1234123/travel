@@ -1,0 +1,223 @@
+[
+  [
+   {
+    "countryName":"Singapore",
+    "countryDiscripiton":"Singapore, officially the Republic of Singapore, is a sovereign island city-state in maritime Southeast.",
+    "countryPrice":"38,800",
+    "countrySpace":"100 kms",
+    "long":"Approx 2 night trip",
+    "countryImg":"assets/imgs/places/weekEnd/1.png"
+   },
+   {
+    "countryName":"thailand",
+    "countryDiscripiton":"Thailand is a Southeast Asian country. It's known for tropical beaches, opulent royal palaces",
+    "countryPrice":"38,800",
+    "countrySpace":"100 kms",
+    "long":"Approx 2 night trip",
+    "countryImg":"assets/imgs/places/weekEnd/2.png"
+   },
+   {
+    "countryName":"Paris",
+    "countryDiscripiton":"Paris, France's capital, is a major European city and a global center for art.",
+    "countryPrice":"38,800",
+    "countrySpace":"100 kms",
+    "long":"Approx 2 night trip",
+    "countryImg":"assets/imgs/places/weekEnd/3.png"
+   },
+   {
+    "countryName":"new zealand",
+    "countryDiscripiton":"New Zealand is an island country in the southwestern Pacific Ocean.",
+    "countryPrice":"38,800",
+    "countrySpace":"100 kms",
+    "long":"Approx 1 night trip",
+    "countryImg":"assets/imgs/places/weekEnd/4.png"
+   },
+   {
+    "countryName":"Bora Bora",
+    "countryDiscripiton":"Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded ",
+    "countryPrice":"38,800",
+    "countrySpace":"100 kms",
+    "long":"Approx 2 night trip",
+    "countryImg":"assets/imgs/places/weekEnd/5.png"
+   },
+   {
+    "countryName":"Landon",
+    "countryDiscripiton":"London, the capital of England and the United Kingdom.",
+    "countryPrice":"38,800 ",
+    "countrySpace":"100 kms", 
+    "long":"Approx 3 night trip",
+    "countryImg":"assets/imgs/places/weekEnd/6.png"
+   },
+   {
+    "countryName":"Cayman Islands",
+    "countryDiscripiton":" Caymans are three islands, each with a different vibe. On a short trip.",
+    "countryPrice":"34,800 ",
+    "countrySpace":"100 kms", 
+    "long":"Approx 3 night trip",
+    "countryImg":"assets/imgs/places/weekEnd/7.png"
+   },
+   {
+    "countryName":"Hamilton, Bermuda",
+    "countryDiscripiton":"Bermuda is a weird bird. It’s not tropical, but it is warm and sunny and has pink-sand .",
+    "countryPrice":"32,800 ",
+    "countrySpace":"100 kms", 
+    "long":"Approx 2 night trip",
+    "countryImg":"assets/imgs/places/weekEnd/8.png"
+   },{
+    "countryName":"Isla Mujeres, Mexico",
+    "countryDiscripiton":"This island right off the coast is an excellent place to enjoy the things for which people going.",
+    "countryPrice":"34,800 ",
+    "countrySpace":"100 kms", 
+    "long":"Approx 4 night trip",
+    "countryImg":"assets/imgs/places/weekEnd/9.png"
+   }
+  ],
+  [
+    {
+      "countryName":"Itali",
+      "countryDiscripiton":"Italy is a popular destination known for its rich history, beautiful architecture, and delicious cuisine.",
+      "countryPrice":"50,800 ",
+      "countrySpace":"300 kms", 
+      "long":"Approx 20 night trip",
+      "countryImg":"assets/imgs/places/holiDay/1.png"
+     },
+     {
+      "countryName":"France",
+      "countryDiscripiton":"France is a country with diverse landscapes, from the beaches of the French Riviera .",
+      "countryPrice":"55,800 ",
+      "countrySpace":"300 kms", 
+      "long":"Approx 15 night trip",
+      "countryImg":"assets/imgs/places/holiDay/2.png"
+     },
+     {
+      "countryName":"Spain",
+      "countryDiscripiton":"Spain is a popular destination for its beaches, vibrant culture, and delicious food.",
+      "countryPrice":"142,800 ",
+      "countrySpace":"100 kms", 
+      "long":"Approx 25 night trip",
+      "countryImg":"assets/imgs/places/holiDay/3.png"
+     },
+     {
+      "countryName":"Greece",
+      "countryDiscripiton":"Greece is known for its stunning islands, ancient history, and delicious cuisine",
+      "countryPrice":"132,800 ",
+      "countrySpace":"300 kms", 
+      "long":"Approx 12 night trip",
+      "countryImg":"assets/imgs/places/holiDay/4.png"
+     },
+     {
+      "countryName":"Turkey",
+      "countryDiscripiton":"Turkey is a country with a rich history and culture, and beautiful landscapes.",
+      "countryPrice":"132,800 ",
+      "countrySpace":"100 kms", 
+      "long":"Approx 20  trip",
+      "countryImg":"assets/imgs/places/holiDay/5.png"
+     },
+     {
+      "countryName":"Portugal",
+      "countryDiscripiton":"Portugal is a country known for its sunny beaches, historic cities, and delicious food.",
+      "countryPrice":"112,800 ",
+      "countrySpace":"140 kms", 
+      "long":"Approx 15 night trip",
+      "countryImg":"assets/imgs/places/holiDay/6.png"
+     },
+     {
+      "countryName":"Thailand",
+      "countryDiscripiton":"Thailand is a popular destination for its beautiful beaches, vibrant culture, and delicious food.",
+      "countryPrice":"121,800 ",
+      "countrySpace":"120 kms", 
+      "long":"Approx 25 night trip",
+      "countryImg":"assets/imgs/places/holiDay/7.png"
+     },
+     {
+      "countryName":"Japan",
+      "countryDiscripiton":"Japan is a country with a unique culture and beautiful landscapes. Tokyo is a bustling city.",
+      "countryPrice":"200,800 ",
+      "countrySpace":"300 kms", 
+      "long":"Approx 14 night trip",
+      "countryImg":"assets/imgs/places/holiDay/8.png"
+     },
+     {
+      "countryName":"Australia",
+      "countryDiscripiton":"Australia is a country with diverse landscapes, from the beaches of the Gold Coast.",
+      "countryPrice":"132,800 ",
+      "countrySpace":"170 kms", 
+      "long":"Approx 15 night trip",
+      "countryImg":"assets/imgs/places/holiDay/9.png"
+     }
+  ],
+  [
+    {
+      "countryName":"The Netherlands",
+      "countryDiscripiton":"The Netherlands is a leader in sustainable architecture and design, and has been at the forefront of the container building movement.",
+      "countryPrice":"1,800 ",
+      "countrySpace":"1500 kms", 
+      "long":"Approx 2 night trip",
+      "countryImg":"assets/imgs/places/TheGroubTour/1.png"
+     },
+     {
+      "countryName":"Australia",
+      "countryDiscripiton":"Australia has a large number of shipping containers due to its reliance on maritime trade, and has been using them for a variety of projects.",
+      "countryPrice":"2,800 ",
+      "countrySpace":"200 kms", 
+      "long":"Approx 3 night trip",
+      "countryImg":"assets/imgs/places/TheGroubTour/2.png"
+     },
+     {
+      "countryName":"United States",
+      "countryDiscripiton":"JThe United States has a growing container building industry, with projects ranging from residential homes to commercial buildings.",
+      "countryPrice":"5,000",
+      "countrySpace":"600 kms", 
+      "long":"Approx 1 night trip",
+      "countryImg":"assets/imgs/places/TheGroubTour/3.png"
+     },
+     {
+      "countryName":"Canada",
+      "countryDiscripiton":"Canada has been using shipping containers for a variety of projects, including student housing and retail spaces.",
+      "countryPrice":"4,000 ",
+      "countrySpace":"300 kms", 
+      "long":"Approx 2 night trip",
+      "countryImg":"assets/imgs/places/TheGroubTour/4.png"
+     },
+     {
+      "countryName":"Germany",
+      "countryDiscripiton":"Germany has been using shipping containers for a variety of projects, including student housing and office buildings.",
+      "countryPrice":"5,000 ",
+      "countrySpace":"300 kms", 
+      "long":"Approx 3 night trip",
+      "countryImg":"assets/imgs/places/TheGroubTour/5.png"
+     },
+     {
+      "countryName":"New Zealand",
+      "countryDiscripiton":"New Zealand has been using shipping containers for a variety of projects, including homes, retail spaces, and even a movie theater.",
+      "countryPrice":"2,800 ",
+      "countrySpace":"300 kms", 
+      "long":"Approx 2 night trip",
+      "countryImg":"assets/imgs/places/TheGroubTour/6.png"
+     },
+     {
+      "countryName":"China",
+      "countryDiscripiton":"JChina has been using shipping containers for a variety of projects, including homes, hotels, and even a school.",
+      "countryPrice":"10,800 ",
+      "countrySpace":"700 kms", 
+      "long":"Approx 5 night trip",
+      "countryImg":"assets/imgs/places/TheGroubTour/7.png"
+     },
+     {
+      "countryName":"United Kingdom",
+      "countryDiscripiton":"The United Kingdom has been using shipping containers for a variety of projects, including student housing, retail spaces, and even a hotel.",
+      "countryPrice":"3,000",
+      "countrySpace":"270 kms", 
+      "long":"Approx 2 night trip",
+      "countryImg":"assets/imgs/places/TheGroubTour/8.png"
+     },
+     {
+      "countryName":"South Africa",
+      "countryDiscripiton":"South Africa has been using shipping containers for a variety of projects, including homes, offices, and even a shopping center.",
+      "countryPrice":"7,800 ",
+      "countrySpace":"300 kms", 
+      "long":"Approx 7 night trip",
+      "countryImg":"assets/imgs/places/TheGroubTour/9.png"
+     }
+  ]
+]
