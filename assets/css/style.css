@@ -15,7 +15,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     margin: 0;
 }
 body{
-    font-family: pop;
+    font-family: Arial;
     overflow-x: hidden;
     overflow-y: scroll;
     max-width: 100vw;
